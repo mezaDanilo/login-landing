@@ -1,20 +1,38 @@
-  .cuadrado{
-        height: 400px;
-        width: 300px;
-        border: 2em 2em;
-        border-style: solid;
-        border-color: gray;
-        text-align: center;
-    }
+.cuadrado {
+  height: 400px;
+  width: 300px;
+  border: 2em 2em;
+  border-style: solid;
+  border-color: gray;
+  text-align: center;
+}
 
-    img{
-        width: 9em;
-        padding-top: 1em;
-    }
+img {
+  width: 9em;
+  padding-top: 1em;
+}
 
-    h1{
-        font-size: 2em;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: gray;
-    }
+h1 {
+  font-size: 1.8em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: gray;
+}
 
+#emailID{
+  border-radius: 5px 5px 0px 0px;
+  border: 2px 2px;
+  border-top-style: solid;
+  border-color: gray;
+  padding: 0.6em 0.6em;
+}
+
+
+#passId{
+    border-radius: 0px 0px 5px 5px;
+    border: 2px 2px;
+    border-top-style: solid;
+    border-color: gray;
+    padding: 0.6em 0.6em;
+    margin-bottom: 0.9em;
+  }
